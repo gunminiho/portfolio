@@ -1,0 +1,57 @@
+import linux from "../../assets/mac.png";
+import "./Home.css";
+
+const Home = () => {
+  return (
+    <div id='intro'>
+    
+    <center><div className="terminalbox">
+        <div className="terminaltopbar">
+          <div className="terminalcloseicon"></div>
+          <div className="terminalminimizeicon"></div>
+          <div className="terminalmaximizeicon"></div>
+          <div className="terminaltitle"><img className="imgLinux" src={linux} />Erickintosh HD</div>
+        </div>
+        <div className="terminaltextbox">
+          <p className="terminaltext" >¡Hello world!</p>
+          <p className="terminaltext" > I'm Erick Pajares </p>
+          <p className="terminaltext">a Full Stack Web Developer </p>
+          <p className="terminaltext" > click & find more about me: </p>
+          <p className="terminaltext" >About me</p>
+          <p className="terminaltext" >Projects</p>
+          <p className="terminaltext" >Experience</p>
+          <p className="terminaltext">Contact</p>
+        </div>
+      </div>
+      </center>
+    </div>
+  );
+};
+
+export default Home;
+/*
+ <div className='intro-overlay'></div>
+      <div className='intro-content'>
+        <div className='row'>
+          <div className='col-twelve'>
+            <h5>Hello, World</h5>
+            <h1>I'm Jorge Nahuel</h1>
+            <p className='intro-position'>
+              <span>Software Developer</span>
+            </p>
+            <a className='button' href='#about' title=''>
+              More About Me
+            </a>
+          </div>
+        </div>
+      </div>
+
+<span className="terminaltext" >I'm Erick Pajares a Full Stack Developer</span>
+          <span className="terminaltext" >click one of these to find more about me: </span>
+          <span className="terminaltext" >About me</span>
+          <span className="terminaltext" >Projects</span>
+          <span className="terminaltext" >Experience</span>
+          <span className="terminaltext">Contact</span>
+
+
+*/

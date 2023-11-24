@@ -1,0 +1,170 @@
+#resume {
+	padding-top: 8rem;
+	padding-bottom: 12rem;
+	background-color: #EBEBEB;
+	font-family: "poppins", sans-serif;
+}
+
+#resume .resume-header h5 {
+	color: #FF0077;
+	font-size: 1.3rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+	text-align: center;
+}
+
+#resume .resume-header h1 {
+	font-family: "poppins", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: #313131;
+	text-align: center;
+}
+
+#resume .resume-header h2 {
+	font-family: "poppins", sans-serif;
+	font-size: 1.8rem;
+}
+
+#resume .resume-header .lead {
+	font-family: "poppins", sans-serif;
+	font-size: 1.3rem;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.title-work {
+	text-align: center;
+	color: #FF0077;
+	padding-top: 2rem;
+	font-size: 20px;
+}
+
+.p-information {
+	padding-right: 10rem;
+}
+
+#resume .timeline-wrap {
+	position: relative;
+	margin-top: 1.5rem;
+	margin-bottom: 6rem;
+}
+
+#resume .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: #EBEBEB;
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+
+#resume .timeline-block {
+	position: relative;
+	padding-top: 1.5rem;
+}
+
+#resume .timeline-header {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+}
+
+#resume .timeline-header h3 {
+	margin-bottom: 0;
+	font-size: 20px;
+	padding-top: 0.4rem;
+	color: #FF0077;
+
+}
+
+#resume .timeline-header p {
+	font-family: "poppins", sans-serif;
+	font-size: 17px;
+	color: #888888;
+}
+
+#resume .timeline-content {
+	margin-left: 40%;
+	padding-left: 60px;
+	font-size: 20px;
+}
+
+#resume .timeline-content h4 {
+	position: relative;
+	padding-bottom: 1.8rem;
+	color:#313131
+}
+
+#resume .timeline-content p {
+	font-size: 18px;
+	padding-right: 10rem;
+
+
+}
+
+#resume .timeline-content a {
+	text-decoration: none;
+	color:#313131
+}
+
+#resume .timeline-content a:hover {
+	color: #FF0077;
+}
+
+#resume .timeline-content h4::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 50px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.figureImg {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width:100%;
+	max-width: 320px;
+	/* Ajusta el tamaño máximo de las imágenes según tus necesidades */
+	display: inline-block;
+}
+.imgPhoto{
+	width: 100%;
+}
+
+.image-preview-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000; /* Ajusta según sea necesario para asegurarte de que esté por encima del resto de tu contenido */
+  }
+  
+  .image-preview {
+	max-width: 90%; /* Ajusta según sea necesario */
+	max-height: 90vh; /* Ajusta según sea necesario */
+	overflow: hidden;
+	border: 1px solid #fff; /* Borde blanco */
+	box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.4); /* Sombra suave */
+  }
+  
+  .preview-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+  }

@@ -1,0 +1,307 @@
+#about {
+	background: #FFFFFF;
+	padding-top: 5rem;
+	padding-bottom: 15rem;
+	font-family: "poppins", sans-serif;
+}
+
+.header {
+	width: 50%;
+	height: 25%;
+
+}
+
+#about .section-intro {
+	margin-bottom: 3rem;
+}
+
+h5 {
+	color: #FF0077;
+	font-size: 1.3rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	font-size: 2rem;
+	font-family: "poppins", sans-serif;
+}
+
+.aboutMe {
+	color: black;
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 2rem;
+}
+
+.intro-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3rem;
+	padding-bottom: 3rem;
+}
+
+.img-CV {
+	display: flex;
+	height: 15rem;
+	width: 12rem;
+	border-radius: 15%;
+	margin: .9rem 0 0 0;
+	float: left;
+	padding-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.intro-info .lead {
+	text-align: justify;
+	display: flex;
+	max-width: 50%;
+}
+
+.about-content {
+	width: 70%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	align-content: center;
+}
+
+
+
+.profile p {
+	height: 180px;
+	text-align: left;
+	list-style: none;
+	font-size: 1.2rem;
+}
+
+.skills p {
+	text-align: left;
+	list-style: none;
+	font-size: 65%;
+	height: 180px;
+	margin-bottom: 15%;
+}
+
+.info-list,
+.skill-bars {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skill-bars ul {
+	margin: none;
+}
+
+.about-content h3 {
+	font-family: "poppins", sans-serif;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+}
+
+.about-content .info-list li {
+	padding: 0 0 1.5rem 0;
+	margin-bottom: .2rem;
+}
+
+.about-content .skill-bars li {
+	margin-bottom: .3rem;
+}
+
+.about-content .info-list li span {
+	color: #313131;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	font-size: 1.3rem;
+	line-height: 3rem;
+	font-family: "poppins", sans-serif;
+
+}
+
+.about-content .skill-bars li span {
+	font-family: "poppins", sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	font-size: 1.2rem;
+	line-height: 3rem;
+	border-bottom: 4px solid #000;
+	/* Cambia #000 al color que desees para la línea */
+	padding-bottom: 5px;
+	/* Ajusta el espaciado entre el texto y la línea según lo necesites */
+	display: block;
+	/* Para asegurar que el borde abarque todo el ancho del contenedor */
+}
+
+.about-content .skill-bars li a {
+	font-size: 1.2rem;
+}
+
+.span-div {
+	padding-bottom: 1rem;
+}
+
+.about-content .info-list li span {
+	font-family: "poppins", sans-serif;
+	color: #313131;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	font-size: 1.2rem;
+	line-height: 3rem;
+	padding-bottom: 2rem;
+}
+
+.about-content .info-list li a {
+	display: block;
+	font-family: "poppins", sans-serif;
+	color: #888888;
+	font-size: 1.2rem;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.buttons {
+	width: 40%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding-top: 3rem;
+	
+}
+
+.buttonHireMe {
+	color: #313131;
+	font-size: 1rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: #313131;
+	border-style: solid;
+	max-width: 100%;
+	transition: color 0.3s, border-color 0.3s;
+	letter-spacing: .2rem;
+
+}
+
+.buttonHireMe:hover {
+	color: #FF0077;
+	/* Cambiamos el color del texto al pasar el ratón */
+	border-color: #FF0077;
+	/* Cambiamos el color del borde al pasar el ratón */
+}
+
+.buttonCv {
+	color: #FFFFFF;
+	font-size: 1rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: #313131;
+	background-color: #313131;
+	border-style: solid;
+	max-width: 100%;
+	transition: color 0.3s, border-color 0.3s;
+	letter-spacing: .2rem;
+	
+}
+
+.buttonCv:hover {
+	color: #FF0077;
+	/* Cambiamos el color del texto al pasar el ratón */
+}
+
+.containerSkills {
+	background-color: rgba(240, 239, 239, 0.5);
+	width: 80%;
+	margin: 5 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	border: #020101 2px;
+	box-shadow: 0px 0px 6px 6px;
+	border-radius: 10px;
+}
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+    .containerSkills {
+        grid-template-columns: repeat(2, 1fr);
+		width: 80%;
+	margin: 5 auto;
+	display: grid;
+	gap: 10px;
+	border: #020101 2px;
+	box-shadow: 0px 0px 6px 6px;
+	border-radius: 10px;
+    }
+
+	.about-content {
+		width: 80%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+		align-content: center;
+	}
+	
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 425px) {
+    .containerSkills {
+        grid-template-columns: 1fr;
+		width: 80%;
+	margin: 5 auto;
+	display: grid;
+	gap: 10px;
+	border: #020101 2px;
+	box-shadow: 0px 0px 6px 6px;
+	border-radius: 10px;
+    }
+
+	.about-content {
+		width: 70%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+		align-content: center;
+	}
+
+	.skillicon{
+		width: 70%;
+		height: 80%;
+		margin-left: 10%;
+		margin-top: 8%;
+		border-radius: 25%;
+	}
+	.skills p {
+		text-align: left;
+		list-style: none;
+		font-size: 65%;
+		height: 180px;
+		margin-bottom: 150%;
+	}
+	
+}
+
+.skillicon{
+	width: 70%;
+	height: 80%;
+	margin-left: 10%;
+	margin-top: 8%;
+	border-radius: 25%;
+}

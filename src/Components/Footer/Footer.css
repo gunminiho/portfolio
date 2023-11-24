@@ -1,0 +1,132 @@
+footer {
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+    font-family: "poppins", sans-serif;
+}
+
+footer a,
+footer a:visited {
+    color: #FFFFFF;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #FF0077;
+}
+
+footer .row {
+    max-width: 100%;
+    text-align: center;
+}
+
+footer .social {
+    text-align: right;
+}
+
+footer .footer-social {
+    display: inline-block;
+    font-size: 2.1rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -.3rem;
+}
+
+footer .footer-social li {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+footer .footer-social li a {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer .footer-social li a:hover {
+    color: #FF0077;
+}
+
+footer .copyright span {
+    display: inline-block;
+}
+
+footer .copyright span a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer .copyright span::after {
+    content: "|";
+    display: inline-block;
+    padding: 0 1rem 0 1.2rem;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+footer .copyright span:last-child::after {
+    display: none;
+}
+
+#go-top {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    z-index: 600;
+}
+
+#go-top a {
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    height: 5.6rem;
+    width: 7rem;
+    line-height: 6.6rem;
+    text-align: center;
+    background: #4d4d4d;
+    color: #FFFFFF;
+    text-align: center;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#go-top a i {
+    font-size: 1.6rem;
+    line-height: inherit;
+}
+
+#go-top a:hover {
+    background: #dba7a7;
+}
+
+.divBack {
+	display: flex;
+	flex-direction: column;
+	border: #00CA5E solid 0px;
+	padding-top: 7.5%;
+}
+
+.imgBack {
+	width: 40%;
+	animation: rotarInfinito 4s linear infinite; /* Ajusta la duración y el tipo de animación según tus necesidades */
+	
+}
+
+@keyframes rotarInfinito {
+    0%, 100% {
+        transform: rotate(0deg) translateX(0);
+      }
+      25% {
+        transform: rotate(10deg) translateY(50px);
+      }
+      50% {
+        transform: rotate(15deg) translateX(0);
+      }
+      75% {
+        transform: rotate(20deg) translateX(-40px);
+      }
+  
+}
