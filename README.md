@@ -1,8 +1,6 @@
 
 <h1>📌 My Portfolio 👨‍💻</h1>  
 
-<h1>📌  Deploy: https://jornabe-dv-portfolio.netlify.app/ </h1>
-
 <h1>📌 Technologies </h1>
 
 - HTML5
